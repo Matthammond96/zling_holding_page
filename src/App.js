@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App flex-container">
 
-      <div className="hero flex-box">
+      {/* <div className="hero flex-box">
         <img alt="Home Automation Systems" src="Show_Villa_3D_Type_Pool.JPG"></img>
-      </div>
+      </div> */}
       <div className="content flex-box">
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
