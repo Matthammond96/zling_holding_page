@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import logo from './logo2.svg';
+import Particles from './Particles'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App flex-container">
+
+      <div className="hero flex-box">
+        <img alt="Home Automation Systems" src="/Show_Villa_3D_Type_Pool.JPG"></img>
+      </div>
+      <div className="content flex-box">
+        <header className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+            <p>Distrupting Home Automation Solutions</p>
+            <p>E: enquire@zling.com</p>
+        </header>
+        <Particles></Particles>
+      </div>
     </div>
   );
 }
